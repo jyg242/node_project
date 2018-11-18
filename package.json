@@ -1,0 +1,21 @@
+{
+    "name": "pm2",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js",
+        "deploy": "pm2 deploy ecosystem.json production"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jyg242/node_project.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jyg242/node_project/issues"
+    },
+    "homepage": "https://github.com/jyg242/node_project#readme"
+}
